@@ -1,0 +1,1 @@
+global.colectables= 0
