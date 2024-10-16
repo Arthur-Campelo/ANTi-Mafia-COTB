@@ -60,6 +60,7 @@
     {"id":{"name":"sPlayer_spear","path":"sprites/sPlayer_spear/sPlayer_spear.yy",},},
     {"id":{"name":"sPlayer_up","path":"sprites/sPlayer_up/sPlayer_up.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"Sprite12","path":"sprites/Sprite12/Sprite12.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
