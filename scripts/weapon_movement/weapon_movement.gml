@@ -7,7 +7,7 @@ function weapon_movement(){
 	} else {
 		weapon.image_xscale = 1
 	}
-	if (mouse_direction >= 0 and mouse_direction < 180) {
+	if (mouse_direction >= 45 and mouse_direction < 120) {
 		weapon_instance.depth=1
 	} else {
 		weapon_instance.depth=-1

@@ -1,9 +1,6 @@
 xspd = lengthdir_x(spd, bullet_direction)
 yspd = lengthdir_y(spd, bullet_direction)
 
-//orientação da imagem da bala
-image_angle = bullet_direction
-
 x+=xspd
 y+=yspd
 
@@ -12,7 +9,6 @@ if destroy {
 	//animation
 	instance_destroy(self)
 }
-
 
 
 colision = instance_place(x,y, all)//checa colisao
@@ -28,10 +24,3 @@ if variable_instance_exists(colision,"type") {//checa se objeto colidido é tipa
 			break
 	}
 }
-
-if (point_distance(xstart,ystart,x,y) > range ) {
-	destroy = true
-}
-
-
-

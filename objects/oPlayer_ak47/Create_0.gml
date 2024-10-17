@@ -1,4 +1,7 @@
-attack_cooldown = 15
+//caracteristicas do ataque da arma
+attack_cooldown = 7
+attack_push = 3
+attack_push_spd = 1
 function attack() {
 	var _x_weapon_point = lengthdir_x(21,oPlayer.mouse_direction)
 	var _y_weapon_point = lengthdir_y(21,oPlayer.mouse_direction)
@@ -6,5 +9,11 @@ function attack() {
 	//cria uma nova bala
 	bullet_instance = instance_create_layer(oPlayer.x+_x_weapon_point,oPlayer.y+_y_weapon_point,"instances", oAk47_bullet)
 	bullet_instance.bullet_direction = oPlayer.mouse_direction// da a direção da nova bala
-	oPlayer.state = player_states_free //retorna o player para o estado livre
+	
+	//move o jogador para trás um pouco
+	var _x_movement = lengthdir_x(attack_push_spd*-1,oPlayer.mouse_direction)
+	var _y_movement = lengthdir_y(attack_push_spd*-1,oPlayer.mouse_direction)
+	
+	//retorna o player para o estado livre
+	oPlayer.state = player_states_free 
 }

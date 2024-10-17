@@ -8,4 +8,4 @@ yspd = 0
 //colisão
 colision = noone
 destroy = false
-range = 80
+range = 140

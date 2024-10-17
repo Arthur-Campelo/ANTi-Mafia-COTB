@@ -3,12 +3,12 @@ window_set_size(1280,720)
 depth = 0
 
 state = player_states_free;
-weapon = oPlayer_ak47
+
+
 
 move_spd =1
 moving = false
 player_tangible = true
-mouse_direction = 0
 
 moveDir = 270
 last_direction = 270
@@ -20,6 +20,18 @@ dash_timer = 0
 dash_cooldown = 30
 dash_invincibility = 12
 
-weapon_instance = noone//as instancia do obj lança
+weapon_instance = noone
 can_attack = true
 attack_timer = 0
+
+//lista de armars e variável para management da lista de armas
+	weapon_index = 0 
+	weapon_list_size = 3
+	
+	//iniciando cada arma manualmente p facilitar a visualização
+		weapon_list = array_create(weapon_list_size)
+		weapon_list[0] = oPlayer_spear
+		weapon_list[1] = oPlayer_pistol
+		weapon_list[2] = oPlayer_ak47
+	//da o valor da arma escolhida
+	weapon = weapon_list[weapon_index]
