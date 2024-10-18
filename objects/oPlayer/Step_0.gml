@@ -10,8 +10,10 @@ mouse_direction = point_direction(x,y,mouse_x,mouse_y)
 //checa se está se movendo
 if((_up+_down+_left+_right)>0) {
 		moving = true
+		move_spd = (move_spd >= 2) ? 2 : move_spd + 0.05;
 	} else {
 		moving = false
+		move_spd = 0.7
 	}
 	
 //troca a arma caso o jogador queira
