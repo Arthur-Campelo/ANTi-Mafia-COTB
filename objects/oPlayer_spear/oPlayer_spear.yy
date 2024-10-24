@@ -10,8 +10,8 @@
   "name":"oPlayer_spear",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Armas-Tiros",
+    "path":"folders/Objetos/Armas-Tiros.yy",
   },
   "parentObjectId":null,
   "persistent":false,

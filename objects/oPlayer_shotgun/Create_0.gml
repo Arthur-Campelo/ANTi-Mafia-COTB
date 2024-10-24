@@ -1,6 +1,6 @@
 //caracteristicas do ataque da arma
-attack_cooldown = 15
-attack_push = 50
+attack_cooldown = 25
+attack_push = 40
 attack_push_spd = 10
 bullet_number = 7
 spread_angle = 90

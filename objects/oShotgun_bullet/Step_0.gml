@@ -1,9 +1,6 @@
 xspd = lengthdir_x(spd, bullet_direction)
 yspd = lengthdir_y(spd, bullet_direction)
 
-//orientação da imagem da bala
-image_angle = bullet_direction
-
 x+=xspd
 y+=yspd
 
