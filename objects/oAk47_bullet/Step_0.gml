@@ -6,12 +6,14 @@ y+=yspd
 
 //code to destroy the bullet
 if destroy {
-	//animation
+	//animation de destruição
 	instance_destroy(self)
 }
 
-
-
+if place_meeting(x,y,oSolid_parent) {
+	destroy = true
+}
+/*
 colision = instance_place(x,y, all)//checa colisao
 if variable_instance_exists(colision,"type") {//checa se objeto colidido é tipado
 	
@@ -28,7 +30,7 @@ if variable_instance_exists(colision,"type") {//checa se objeto colidido é tipa
 
 if (point_distance(xstart,ystart,x,y) > range ) {
 	destroy = true
-}
+}*/
 
 
 

@@ -8,11 +8,11 @@ function player_movement(_x_move,_y_move){
 			_x_move *=0.707
 		}
 		//checa colisão e move x
-		if !(place_meeting(oPlayer.x+_x_move,oPlayer.y,oBloco)) {
+		if !(place_meeting(oPlayer.x+_x_move,oPlayer.y,oSolid_parent)) {
 			oPlayer.x +=_x_move
 		}
 		//checa colisão e move y
-		if !(place_meeting(oPlayer.x,oPlayer.y+_y_move,oBloco)) {
+		if !(place_meeting(oPlayer.x,oPlayer.y+_y_move,oSolid_parent)) {
 			oPlayer.y +=_y_move
 		}
 	}

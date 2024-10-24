@@ -1,21 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"oShotgun_bullet",
+  "%Name":"oDamage_enemy",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oShotgun_bullet",
+  "name":"oDamage_enemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"Armas-Tiros",
-    "path":"folders/Objetos/Armas-Tiros.yy",
+    "name":"Inimigos",
+    "path":"folders/Objetos/Inimigos.yy",
   },
   "parentObjectId":{
-    "name":"oDamage_enemy",
-    "path":"objects/oDamage_enemy/oDamage_enemy.yy",
+    "name":"oDamage_parent",
+    "path":"objects/oDamage_parent/oDamage_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sShotgun_bullet",
-    "path":"sprites/sShotgun_bullet/sShotgun_bullet.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

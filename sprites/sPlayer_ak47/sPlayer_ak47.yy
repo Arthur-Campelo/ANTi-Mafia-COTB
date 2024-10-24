@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Armas-Tiros",
+    "path":"folders/Sprites/Armas-Tiros.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

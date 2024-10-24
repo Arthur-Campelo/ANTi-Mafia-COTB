@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oBloco",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oSolid_parent",
+  "eventList":[],
   "managed":true,
-  "name":"oBloco",
+  "name":"oSolid_parent",
   "overriddenProperties":[],
   "parent":{
     "name":"Blocos",
     "path":"folders/Objetos/Blocos.yy",
   },
-  "parentObjectId":{
-    "name":"oSolid_parent",
-    "path":"objects/oSolid_parent/oSolid_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sBLoco",
-    "path":"sprites/sBLoco/sBLoco.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

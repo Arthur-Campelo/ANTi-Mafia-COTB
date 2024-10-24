@@ -4,9 +4,8 @@ attack_cooldown = 13
 attack_timer = 0
 
 function attack() {
-	sprite_index = sPlayer_spear_attack	//muda para o sprite de ataque da lança
+	//adicionar animação de ataque
 	oPlayer.attack_timer+=attack_spd //serve como o timer para o ataque
-	
 	
 	//armazena a movimentação do player e o move utilizando a função q checa colisão
 	var _x_move=lengthdir_x(attack_spd, oPlayer.mouse_direction)

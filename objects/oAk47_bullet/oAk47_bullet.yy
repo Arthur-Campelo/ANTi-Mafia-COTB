@@ -13,7 +13,10 @@
     "name":"Armas-Tiros",
     "path":"folders/Objetos/Armas-Tiros.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oDamage_enemy",
+    "path":"objects/oDamage_enemy/oDamage_enemy.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

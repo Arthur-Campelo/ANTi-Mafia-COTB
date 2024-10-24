@@ -1,3 +1,5 @@
+event_inherited()
+
 //coisas da bala
 bullet_direction = 0
 bullet_spd = 0
