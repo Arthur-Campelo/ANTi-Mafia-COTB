@@ -5,6 +5,7 @@ attack_timer = 0
 
 function attack() {
 	//adicionar animação de ataque
+	
 	oPlayer.attack_timer+=attack_spd //serve como o timer para o ataque
 	
 	//armazena a movimentação do player e o move utilizando a função q checa colisão

@@ -47,6 +47,7 @@
     {"id":{"name":"oDamage_parent","path":"objects/oDamage_parent/oDamage_parent.yy",},},
     {"id":{"name":"oDeath_stationary","path":"objects/oDeath_stationary/oDeath_stationary.yy",},},
     {"id":{"name":"oDeath","path":"objects/oDeath/oDeath.yy",},},
+    {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"oMosca","path":"objects/oMosca/oMosca.yy",},},
     {"id":{"name":"oPistol_bullet","path":"objects/oPistol_bullet/oPistol_bullet.yy",},},
     {"id":{"name":"oPlayer_ak47","path":"objects/oPlayer_ak47/oPlayer_ak47.yy",},},

@@ -1,4 +1,6 @@
 attack_cooldown = 15
+
+
 function attack() {
 	var _x_weapon_point = lengthdir_x(12,oPlayer.mouse_direction)
 	var _y_weapon_point = lengthdir_y(12,oPlayer.mouse_direction)

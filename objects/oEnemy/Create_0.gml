@@ -1,0 +1,1 @@
+//objeto pai de qualquer inimigo
