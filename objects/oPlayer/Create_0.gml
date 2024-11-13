@@ -2,13 +2,15 @@ window_set_size(1080,720)
 
 depth = 0
 
-state = player_states_free;
-
-
-
+hp = 10
 move_spd =0.7
 moving = false
 player_tangible = true
+
+state = player_states_free;
+damage_create(hp)
+
+
 
 moveDir = 270
 last_direction = 270

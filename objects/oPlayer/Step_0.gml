@@ -6,8 +6,11 @@ var _right = keyboard_check(ord("D"))
 var _weapon_change = mouse_check_button_pressed(mb_right)
 mouse_direction = point_direction(x,y,mouse_x,mouse_y)
 
+//sistema de dano
+get_damaged(oDamage_player)
 
-//checa se está se movendo
+
+//checa se está se movendo -> precisa ser retrabalhada no futuro
 if((_up+_down+_left+_right)>0) {
 		moving = true
 		move_spd = (move_spd >= 2) ? 2 : move_spd + 0.05;

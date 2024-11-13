@@ -12,3 +12,4 @@ yspd = 0
 colision = noone
 destroy = false
 range = 140
+piercing = true

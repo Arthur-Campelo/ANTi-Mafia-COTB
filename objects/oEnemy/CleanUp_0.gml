@@ -1,0 +1,1 @@
+damage_destroy(damage_list)
