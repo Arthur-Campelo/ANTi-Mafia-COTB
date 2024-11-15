@@ -1,7 +1,7 @@
 //variáveis básicas
 event_inherited()//seta variáveis básicas para caso de erro
 hp = 10
-spd = 2
+spd = 0.7
 xspd =0
 yspd = 0
 face = 1

@@ -20,15 +20,33 @@ function player_states_free(_up,_down,_left,_right) {
 	//atualiza a direção do mouse em relação ao player
 	mouse_direction = point_direction(oPlayer.x,oPlayer.y,mouse_x,mouse_y)
 	
-	//direcionamento do personagi
+	//direcionamento e parado ou andando do personagi
+	oPlayer.flip_horizontal = false
 	if(mouse_direction<45 or mouse_direction>300) {
-		sprite_index = sPlayer_right
+		if moving {
+			sprite_index = sPlayer_left_moving
+		} else {
+			sprite_index = sPlayer_left
+		}
+		oPlayer.flip_horizontal = true
 	} else if (mouse_direction<120) {
-		sprite_index = sPlayer_up
+		if moving {
+			sprite_index = sPlayer_up_moving
+		} else {
+			sprite_index = sPlayer_up
+		}
 	} else if(mouse_direction<225) {
-		sprite_index = sPlayer_left
+		if moving {
+			sprite_index = sPlayer_left_moving
+		} else {
+			sprite_index = sPlayer_left
+		}
 	} else {
-		sprite_index = sPlayer
+		if moving {
+			sprite_index = sPlayer_moving
+		} else {
+			sprite_index = sPlayer
+		}
 	}
 	
 	//dash

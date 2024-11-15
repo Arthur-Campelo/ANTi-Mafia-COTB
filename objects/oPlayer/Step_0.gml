@@ -7,7 +7,7 @@ var _weapon_change = mouse_check_button_pressed(mb_right)
 mouse_direction = point_direction(x,y,mouse_x,mouse_y)
 
 //sistema de dano
-get_damaged(oDamage_player)
+get_damaged(oDamage_player, iframes)
 
 
 //checa se está se movendo -> precisa ser retrabalhada no futuro

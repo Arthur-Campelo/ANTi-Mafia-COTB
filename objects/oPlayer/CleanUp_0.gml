@@ -1,1 +1,3 @@
-damage_destroy(damage_list)
+if !iframes {
+	damage_destroy(damage_list, iframes)
+}

@@ -1,19 +1,19 @@
-window_set_size(1080,720)
-
 depth = 0
 
 hp = 10
 move_spd =0.7
 moving = false
 player_tangible = true
+iframes = true
 
 state = player_states_free;
-damage_create(hp)
+damage_create(hp,iframes)
 
 
 
 moveDir = 270
 last_direction = 270
+flip_horizontal= false
 
 can_dash=true
 dash_spd = 4.5
