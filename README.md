@@ -1,7 +1,7 @@
 AntiMafia - COTB Edition
 
 Sobre o Projeto
-AntiMafia é um jogo desenvolvido para o evento COTB, trazendo uma experiência estratégica e envolvente. O objetivo é identificar e eliminar os membros da máfia infiltrados na cidade, utilizando dedução e trabalho em equipe.
+AntiMafia é um jogo desenvolvido para o evento COTB, trazendo uma experiência estratégica e envolvente. O tema do jogo é meramente um exemplo para servir de ensinamento no processo de criação de jogos.
 
 Tecnologias Utilizadas
 GameMaker Studio
